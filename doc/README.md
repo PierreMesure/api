@@ -31,6 +31,10 @@ Note that the postgres versions may differ anywhere from 9.3 to 9.6, and postgis
 
     sudo apt-get install postgresql postgis libpq-dev postgresql-9.5 postgresql-9.5-postgis-2.2 postgresql-server-dev-9.5 python-psycopg2 binutils libjpeg8-dev
 
+On Ubuntu 18.04, you can run this:
+
+    sudo apt-get install postgresql postgis libpq-dev postgresql-10 postgresql-10-postgis-2.4 postgresql-server-dev-10 python-psycopg2 binutils libjpeg8-dev postgresql-10-postgis-2.4-scripts
+    
 Create a development database for the Shareabouts data store.
 
     sudo su postgres
